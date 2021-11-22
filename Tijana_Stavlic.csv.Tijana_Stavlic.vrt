@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="Tijana_Stavlic-Tijana_Stavlic">
+        <SrcDataSource relativeToVRT="1">Tijana_Stavlic.csv</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>Tijana_Stavlic</SrcLayer>
+        <Field name="idT" src="idT" type="String"/>
+        <Field name="idM" src="idM" type="String"/>
+        <Field name="idK" src="idK" type="String"/>
+        <Field name="rmsX" src="rmsX" type="String"/>
+        <Field name="rmsY" src="rmsY" type="String"/>
+        <Field name="rmsZ" src="rmsZ" type="String"/>
+        <Field name="aRms" src="aRms" type="String"/>
+        <Field name="aPeakX" src="aPeakX" type="String"/>
+        <Field name="aPeakY" src="aPeakY" type="String"/>
+        <Field name="aPeakZ" src="aPeakZ" type="String"/>
+        <Field name="aPeak" src="aPeak" type="String"/>
+        <Field name="vreme" src="vreme" type="String"/>
+        <Field name="brzina" src="brzina" type="String"/>
+        <Field name="maxX" src="maxX" type="String"/>
+        <Field name="maxY" src="maxY" type="String"/>
+        <Field name="maxZ" src="maxZ" type="String"/>
+        <Field name="opis" src="opis" type="String"/>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="longitude" y="latitude"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
